@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&family=Roboto&display=swap");
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .input-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(244, 244, 244, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    .sendcode {
+      display: flex;
+    }
+    .mail {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0px;
+      label {
+        margin: 10px 0px;
+        font-family: "Roboto", sans-serif;
+      }
+
+      input {
+        font-size: 15px;
+        border: 1px solid #ccc;
+        width: 300px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        outline: none;
+        transition: 0.3s ease-in-out;
+        border-radius: 3px;
+        &:focus {
+          background: transparent;
+          border: 1px solid rgb(11, 8, 9);
+        }
+      }
+    }
+    .pass {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0px;
+      label {
+        margin: 10px 0px;
+        font-family: "Roboto", sans-serif;
+      }
+
+      input {
+        font-size: 15px;
+        border: 1px solid #ccc;
+        width: 300px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        outline: none;
+        transition: 0.3s ease-in-out;
+        border-radius: 3px;
+        &:focus {
+          background: transparent;
+          border: 1px solid rgb(11, 8, 9);
+        }
+      }
+    }
+    .confirmpass {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0px;
+      label {
+        margin: 10px 0px;
+        font-family: "Roboto", sans-serif;
+      }
+
+      input {
+        font-size: 15px;
+        border: 1px solid #ccc;
+        width: 300px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        outline: none;
+        transition: 0.3s ease-in-out;
+        border-radius: 3px;
+        &:focus {
+          background: transparent;
+          border: 1px solid rgb(11, 8, 9);
+        }
+      }
+    }
+    .sendcode {
+      margin: 10px 0px;
+      input[type="text"] {
+        font-size: 15px;
+        border: 1px solid #ccc;
+        width: 170px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        outline: none;
+        transition: 0.3s ease-in-out;
+        border-radius: 3px;
+        &:focus {
+          background: transparent;
+          border: 1px solid rgb(11, 8, 9);
+        }
+      }
+      input[type="button"] {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        margin-left: 10px;
+        padding: 0px 5px;
+        color: white;
+        background: #000;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        &:hover {
+          background: #2e2e2e;
+        }
+      }
+    }
+  }
+
+  input[type="submit"] {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #000;
+    color: white;
+    width: 300px;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      background: #2e2e2e;
+    }
+  }
+}
+
+.signup-errors {
+  color: #ff0000;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin: 5px auto;
+}
+
+.verifyEmail-success {
+  color: #34aa40;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  margin: 5px auto;
+}
+
+.verifyEmail-success-signup {
+  color: #34aa40;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  margin: 5px auto;
+}
+
+.agree {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+// style when signup equal to paymentpage
+.signup-form-payment {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  .input-signup-payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    .sendcode {
+      display: flex;
+    }
+    .mail-payment {
+      display: flex;
+      flex-direction: column;
+      label {
+        margin: 5px 0px;
+        font-family: "Roboto", sans-serif;
+      }
+
+      input {
+        font-size: 15px;
+        border: 1px solid #ccc;
+        // width: 300px;
+        // padding-left: 20px;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
+        padding: 10px 15px;
+        outline: none;
+        transition: 0.3s ease-in-out;
+        border-radius: 5px;
+        &:focus {
+          background: transparent;
+          border: 1px solid rgb(11, 8, 9);
+        }
+      }
+    }
+    .pass-payment {
+      display: flex;
+      flex-direction: column;
+      // margin: 10px 0px;
+      label {
+        margin: 5px 0px;
+        font-family: "Roboto", sans-serif;
+      }
+
+      input {
+        font-size: 15px;
+        border: 1px solid #ccc;
+        // width: 300px;
+        // padding-left: 20px;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
+        padding: 10px 15px;
+        outline: none;
+        transition: 0.3s ease-in-out;
+        border-radius: 5px;
+        &:focus {
+          background: transparent;
+          border: 1px solid rgb(11, 8, 9);
+        }
+      }
+    }
+    .confirmpass-payment {
+      display: flex;
+      flex-direction: column;
+      // margin: 10px 0px;
+      label {
+        margin: 5px 0px;
+        font-family: "Roboto", sans-serif;
+      }
+
+      input {
+        font-size: 15px;
+        border: 1px solid #ccc;
+        // width: 300px;
+        // padding-left: 20px;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
+        padding: 10px 15px;
+        outline: none;
+        transition: 0.3s ease-in-out;
+        border-radius: 5px;
+        &:focus {
+          background: transparent;
+          border: 1px solid rgb(11, 8, 9);
+        }
+      }
+    }
+    .sendcode-payment {
+      // margin: 10px 0px;
+      margin-bottom: -10px;
+      input[type="text"] {
+        font-size: 15px;
+        border: 1px solid #ccc;
+        // width: 170px;
+        // padding-left: 10px;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
+        padding: 11px 5px;
+        outline: none;
+        transition: 0.3s ease-in-out;
+        border-radius: 5px;
+        &:focus {
+          background: transparent;
+          border: 1px solid rgb(11, 8, 9);
+        }
+      }
+      input[type="button"] {
+        font-size: 15px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        // margin-left: 10px;
+        // padding: 0px 5px;
+        padding: 10px;
+        color: white;
+        background: #000;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        &:hover {
+          background: #2e2e2e;
+        }
+      }
+    }
+  }
+
+  input[type="submit"] {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #000;
+    color: white;
+    width: 300px;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      background: #2e2e2e;
+    }
+  }
+}

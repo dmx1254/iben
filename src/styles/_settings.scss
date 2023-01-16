@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: calc(100% - 120px);
+  background: url("../assets/dofus1.png");
+  background-size: cover;
+  background-position: center;
+  // background-repeat: no-repeat;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+li {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  /* text-transform: uppercase; */
+}

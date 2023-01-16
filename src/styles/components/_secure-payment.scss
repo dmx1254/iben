@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&family=Roboto&display=swap");
+.secure-payment {
+  display: flex;
+  flex-direction: column;
+  // margin-left: 100px;
+  // margin-top: 50px;
+  justify-content: center;
+  gap: 40px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background: rgba(244, 244, 244, 0.8);
+
+  @media (max-width: 681px) {
+    margin: 0px auto;
+  }
+  .secure-payment-intro {
+    margin: 0px auto;
+  }
+
+  .secure-payment-title {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Roboto", cursive;
+    font-weight: 500;
+  }
+
+  .methode-of-payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  p {
+    font-family: "Roboto", cursive;
+    line-height: 25px;
+    max-width: 800px;
+    font-size: 17px;
+  }
+  img {
+    margin: 5px 0px;
+  }
+
+  span {
+    font-family: "Aboreto", cursive;
+  }
+}

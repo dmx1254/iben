@@ -1,0 +1,9 @@
+export { default as Home } from './Home';
+export { default as Faqs } from './Faqs';
+export { default as ProductDetails } from './ProductDetails';
+export { default as PrivacyPolicy } from './PrivacyPolicy';
+export { default as BuyKamas } from './BuyKamas';
+export { default as TermAndConditions } from './TermAndConditions';
+export { default as KamasPrice } from './KamasPrice';
+export { default as Contact } from './Contact';
+export { default as PaymentPage } from './PaymentPage';

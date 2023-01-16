@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&family=Roboto&display=swap");
+.welcome {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #000;
+  color: gray;
+  justify-content: center;
+  img {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 4px;
+  }
+
+  h1 {
+    margin-left: 8px;
+  }
+}

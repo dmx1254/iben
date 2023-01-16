@@ -1,0 +1,343 @@
+.header {
+  justify-content: "space-between";
+  user-select: none;
+  border-bottom: 3px solid rgb(255, 240, 0);
+  // @media (max-width: 632px) {
+  //   display: flex;
+  //   justify-content: space;
+  // }
+}
+
+@media (max-width: 505px) {
+  // .contactUs {
+  //   display: none;
+  // }
+}
+
+.logo-ibendouma {
+  @media (max-width: 443px) {
+    margin-left: -10px;
+  }
+
+  // @media (max-width: 400px) {
+  //   margin-left: -15px;
+  // }
+
+  .image-logo {
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    // margin-top: 30px;
+    @media (max-width: 790px) {
+      width: 100px;
+      height: 100px;
+    }
+    @media (max-width: 443px) {
+      width: 80px;
+      height: 80px;
+    }
+    @media (max-width: 359px) {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  @media (max-width: 280px) {
+    display: none;
+  }
+}
+
+// .user-last-french {
+//   display: flex;
+//   gap: 8px;
+//   margin-right: 8px;
+//   align-items: center;
+// }
+.idCorrect {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  margin-right: 5px;
+  position: relative;
+
+  .cart-toggle-product {
+    position: absolute;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    top: 142%;
+    left: -180%;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    .icon-close {
+      color: #000;
+      position: absolute;
+      top: -1%;
+      left: 92%;
+      font-size: 19px;
+      cursor: pointer;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      // min-width: 300px;
+      margin-top: 10px;
+      img {
+        width: 25px;
+        height: 25px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      span {
+        color: black;
+        font-size: 12px;
+      }
+      .cart-trash {
+        color: #ad0000;
+        font-size: 13px;
+        cursor: pointer;
+      }
+    }
+    span {
+      color: blue;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+
+  .empty-cart {
+    position: absolute;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    top: 142%;
+    left: -180%;
+    padding: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 999;
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      color: gray;
+      margin-top: 10px;
+    }
+    img {
+      width: 80px;
+      height: 80px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .icon-close {
+      color: #000;
+      position: absolute;
+      top: -1%;
+      left: 90%;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  }
+  // @media (max-width: 440px) {
+  //   gap: 5px;
+  // }
+  // @media (max-width: 382px) {
+  //   gap: 0px;
+  // }
+
+  .iconUser {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.5 ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: -2px;
+    .img-user-person {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      @media (max-width: 426px) {
+        width: 35px;
+        height: 35px;
+      }
+      @media (max-width: 385px) {
+        width: 30px;
+        height: 30px;
+      }
+
+      @media (max-width: 381px) {
+        width: 25px;
+        height: 25px;
+      }
+      @media (max-width: 280px) {
+        width: 15px;
+        height: 15px;
+      }
+    }
+    .revealAccount {
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      padding: 10px;
+      position: absolute;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      background: #fff;
+      color: #000;
+      left: -300%;
+      top: 135%;
+      width: 180px;
+      border-radius: 5px;
+      user-select: none;
+      span {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        color: #000;
+        &:hover {
+          color: #ad0000;
+        }
+      }
+      .link-profil {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        &:hover {
+          color: #333333;
+        }
+      }
+      .sepa {
+        border-bottom: 1px solid #000;
+        width: 100%;
+        margin: 5px 0px;
+      }
+    }
+    &:hover {
+      background: rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+.acountUser {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 5px;
+
+  @media (max-width: 514px) {
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .btnToLog {
+    font-size: 17px;
+    padding: 10px 5px;
+    border: none;
+    background: #e7c80b;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    transition: 0.5s ease-in-out;
+    box-shadow: rgba(255, 240, 0, 0.3) 0px 1px 2px 0px,
+      rgba(255, 240, 0, 0.15) 0px 2px 6px 2px;
+
+    @media (max-width: 514px) {
+      font-size: 15px;
+      padding: 5px;
+    }
+
+    @media (max-width: 388px) {
+      font-size: 13px;
+      padding: 3px;
+    }
+
+    &:hover {
+      background: rgb(255, 240, 0);
+    }
+  }
+}
+
+.logo-icon-displays {
+  a {
+    img {
+      width: 17px;
+      height: 17px;
+    }
+    // .img-h {
+    //   display: none;
+    // }
+  }
+
+  @media (max-width: 358px) {
+    margin-left: 2px;
+  }
+}
+.panier-empty1 {
+  cursor: pointer;
+  &:hover + div {
+    display: flex;
+  }
+}
+
+.panier-empty2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10%;
+  padding: 10px 15px;
+  background-color: rgb(56, 56, 56);
+  color: #f4f4f4;
+  height: 100px;
+  display: none;
+  border-radius: 5px;
+}
+
+.currency-exchange {
+  @media (max-width: 385px) {
+    font-size: 12px;
+  }
+}
+
+.skype-display {
+  @media (max-width: 280px) {
+    display: none;
+  }
+}
+
+// .currency-changes-mar {
+//   @media (max-width: 280px) {
+//     margin-left: 0px;
+//   }
+// }

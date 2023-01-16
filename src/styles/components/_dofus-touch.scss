@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Mukta&family=Noto+Sans&display=swap");
+$clr-primary: #81d4fa;
+$clr-primary-light: #e1f5fe;
+$clr-primary-dark: #4fc3f7;
+$clr-gray100: #f9fbff;
+$clr-gray150: #f4f6fb;
+$clr-gray200: #eef1f6;
+$clr-gray300: #e1e5ee;
+$clr-gray400: #767b91;
+$clr-gray500: #4f546c;
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
+$clr-pending: #fff0c2;
+$clr-pending-font: #a68b00;
+$clr-unpaid: #ffcdd2;
+$clr-unpaid-font: #c62828;
+$clr-paid: #c8e6c9;
+$clr-paid-font: #388e3c;
+$clr-link: #2962ff;
+
+/*   border radius */
+$radius: 0.2rem;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.dofus-touch {
+  justify-content: center;
+  align-items: center;
+  color: $clr-gray500;
+  font-size: 0.9rem;
+  background-color: $clr-gray100;
+  margin-top: 40px;
+  .dofus-touch-title {
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  table {
+    border-collapse: collapse;
+    // box-shadow: 0 5px 10px $clr-gray300;
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+
+    thead {
+      // box-shadow: 0 5px 10px $clr-gray300;
+    }
+
+    th {
+      padding: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-size: 0.7rem;
+      // font-weight: 900;
+      @media (max-width: 859px) {
+        padding: 0.8rem;
+      }
+      @media (max-width: 815px) {
+        padding: 0.6rem;
+      }
+      @media (max-width: 737px) {
+        padding: 0.5rem;
+        font-size: 0.6rem;
+      }
+      @media (max-width: 704px) {
+        padding: 0.4rem;
+      }
+      @media (max-width: 675px) {
+        padding: 0.3rem;
+        text-align: center;
+      }
+      @media (max-width: 580px) {
+        padding: 0.1rem;
+      }
+      @media (max-width: 535px) {
+        font-size: 0.5rem;
+      }
+    }
+
+    .pric-kamas {
+      padding: 1rem 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-size: 0.7rem;
+      font-weight: 900;
+      @media (max-width: 870px) {
+        font-size: 0.6rem;
+      }
+      @media (max-width: 630px) {
+        padding: 0.5rem;
+        font-size: 0.5rem;
+      }
+      @media (max-width: 378px) {
+        padding: 0.4rem;
+      }
+    }
+    .qty-kamas {
+      padding: 1rem 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-size: 0.7rem;
+      font-weight: 900;
+      @media (max-width: 870px) {
+        font-size: 0.6rem;
+      }
+      @media (max-width: 630px) {
+        padding: 0.5rem;
+        font-size: 0.5rem;
+      }
+      @media (max-width: 378px) {
+        padding: 0.4rem;
+      }
+    }
+
+    td {
+      padding: 1rem;
+      @media (max-width: 859px) {
+        padding: 0.8rem;
+      }
+      @media (max-width: 815px) {
+        padding: 0.6rem;
+      }
+      @media (max-width: 737px) {
+        padding: 0.5rem;
+      }
+
+      @media (max-width: 704px) {
+        padding: 0.4rem;
+      }
+
+      @media (max-width: 675px) {
+        padding: 0.3rem;
+        text-align: center;
+      }
+      @media (max-width: 642px) {
+        font-size: 0.9rem;
+      }
+      @media (max-width: 615px) {
+        font-size: 0.8rem;
+      }
+      @media (max-width: 580px) {
+        padding: 0.1rem;
+      }
+      @media (max-width: 535px) {
+        font-size: 0.7rem;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: $clr-link;
+    }
+
+    .status {
+      border-radius: $radius;
+      background-color: red;
+      padding: 0.2rem 1rem;
+      text-align: center;
+
+      &-pending {
+        background-color: $clr-pending;
+        color: $clr-pending-font;
+      }
+
+      &-paid {
+        background-color: $clr-paid;
+        color: $clr-paid-font;
+      }
+
+      &-unpaid {
+        background-color: $clr-unpaid;
+        color: $clr-unpaid-font;
+      }
+    }
+
+    .amount {
+      text-align: right;
+    }
+
+    //Color alternating rows
+    tr:nth-child(even) {
+      background-color: $clr-gray150;
+    }
+  }
+}

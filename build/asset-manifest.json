@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebce0fe8.css",
+    "main.js": "/static/js/main.f6b18027.js",
+    "static/media/dofus1.png": "/static/media/dofus1.238a92bba53f41a1a76b.png",
+    "static/media/ibendouma-logo.png": "/static/media/ibendouma-logo.219b07c5ed5922cb8938.png",
+    "static/media/dofus-kamas.jpg": "/static/media/dofus-kamas.8adb9c5f28494af17c5c.jpg",
+    "static/media/eng.png": "/static/media/eng.bb766130bf3c90f2b2eb.png",
+    "static/media/fre.png": "/static/media/fre.c644f00f921b1721e42b.png",
+    "static/media/esp.png": "/static/media/esp.f1d7a01a5e245be01638.png",
+    "static/media/dofus-touch.png": "/static/media/dofus-touch.d48c92b538c4a3790730.png",
+    "static/media/dofus-retro.jpg": "/static/media/dofus-retro.a9843fd5526850f49d03.jpg",
+    "static/media/skrill.png": "/static/media/skrill.609230d15a7052e50044.png",
+    "static/media/empty-shopping.png": "/static/media/empty-shopping.fc312c39e259f763f4f9.png",
+    "static/media/btc.png": "/static/media/btc.bc2cf157b3fdc8dc61ff.png",
+    "static/media/eth.png": "/static/media/eth.bd0a0758d248cc6e98c3.png",
+    "static/media/empty.webp": "/static/media/empty.a5c7b84033f220792141.webp",
+    "static/media/creditcard.webp": "/static/media/creditcard.55eb05d62d336c881ce4.webp",
+    "static/media/visa_master.webp": "/static/media/visa_master.b9c1a8aa37c148a3b684.webp",
+    "static/media/crypto.webp": "/static/media/crypto.1b9a81e050f6155436f2.webp",
+    "static/media/shopping-g.webp": "/static/media/shopping-g.aaed65e6bfe33c675840.webp",
+    "static/media/cryptoapi.webp": "/static/media/cryptoapi.2aa4f129421bfbb3da43.webp",
+    "static/media/google-safe.webp": "/static/media/google-safe.c2852091a2f5ca6ecd4e.webp",
+    "static/media/usdt.webp": "/static/media/usdt.faf2026eb913a054399a.webp",
+    "static/media/secureconnection.webp": "/static/media/secureconnection.4a8e8b4ccc21130e60b2.webp",
+    "static/media/ideal.webp": "/static/media/ideal.85bf38c7473221eda2ba.webp",
+    "static/media/visa_mastercard.webp": "/static/media/visa_mastercard.b3089edd03df5d329409.webp",
+    "index.html": "/index.html",
+    "static/media/en.webp": "/static/media/en.6c181e90aff4554a9e78.webp",
+    "static/media/fr.webp": "/static/media/fr.fb936e59b60ba3f27091.webp",
+    "main.ebce0fe8.css.map": "/static/css/main.ebce0fe8.css.map",
+    "main.f6b18027.js.map": "/static/js/main.f6b18027.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebce0fe8.css",
+    "static/js/main.f6b18027.js"
+  ]
+}
