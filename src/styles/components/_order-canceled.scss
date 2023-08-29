@@ -1,0 +1,336 @@
+.order-canceled {
+  $clr-primary: #81d4fa;
+  $clr-primary-light: #e1f5fe;
+  $clr-primary-dark: #4fc3f7;
+  $clr-gray100: #f9fbff;
+  $clr-gray150: #f4f6fb;
+  $clr-gray200: #eef1f6;
+  $clr-gray300: #e1e5ee;
+  $clr-gray400: #767b91;
+  $clr-gray500: #4f546c;
+  $clr-gray600: #2a324b;
+  $clr-gray700: #161d34;
+  $clr-pending: #fff0c2;
+  $clr-pending-font: #a68b00;
+  $clr-unpaid: #ffcdd2;
+  $clr-unpaid-font: #c62828;
+  $clr-paid: #c8e6c9;
+  $clr-paid-font: #388e3c;
+  $clr-link: #2962ff;
+
+  /*   border radius */
+  $radius: 0.2rem;
+
+  table {
+    border-collapse: collapse;
+    // box-shadow: 0 5px 10px $clr-gray300;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+
+    @media (max-width: 460px) {
+      margin-left: -20px;
+    }
+
+    @media (max-width: 402px) {
+      margin-left: -30px;
+    }
+
+    @media (max-width: 390px) {
+      margin-left: -35px;
+    }
+
+    @media (max-width: 386px) {
+      margin-left: -20px;
+    }
+
+    @media (max-width: 370px) {
+      margin-left: -25px;
+    }
+
+    @media (max-width: 362px) {
+      margin-left: -30px;
+    }
+
+    @media (max-width: 354px) {
+      margin-left: -33px;
+    }
+
+    // @media (max-width: 815px) {
+    //   margin-left: -20px;
+    // }
+    // @media (max-width: 748px) {
+    //   margin-left: -30px;
+    // }
+
+    // @media (max-width: 725px) {
+    //   margin-left: -20px;
+    // }
+
+    // @media (max-width: 655px) {
+    //   margin-left: -30px;
+    // }
+
+    // @media (max-width: 472px) {
+    //   margin-left: -5px;
+    // }
+
+    // @media (max-width: 450px) {
+    //   margin-left: -15px;
+    // }
+
+    // @media (max-width: 420px) {
+    //   margin-left: -25px;
+    // }
+
+    // @media (max-width: 408px) {
+    //   margin-left: -30px;
+    // }
+
+    // @media (max-width: 402px) {
+    //   margin-left: -35px;
+    // }
+
+    // @media (max-width: 396px) {
+    //   margin-left: -37px;
+    // }
+
+    // @media (max-width: 396px) {
+    //   margin-left: -30px;
+    // }
+
+    // @media (max-width: 388px) {
+    //   margin-left: -35px;
+    // }
+
+    // @media (max-width: 382px) {
+    //   margin-left: -37px;
+    // }
+
+    // @media (max-width: 380px) {
+    //   margin-left: -38px;
+    // }
+
+    // @media (max-width: 378px) {
+    //   margin-left: -39px;
+    // }
+
+    // @media (max-width: 376px) {
+    //   margin-left: -30px;
+    // }
+
+    // @media (max-width: 370px) {
+    //   margin-left: -35px;
+    // }
+
+    // thead {
+    //   // box-shadow: 0 5px 10px $clr-gray300;
+    // }
+
+    th {
+      padding: 1rem;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      @media (max-width: 808px) {
+        font-size: 0.6rem;
+        padding: 1rem 0.5rem;
+      }
+
+      @media (max-width: 560px) {
+        font-size: 0.5rem;
+        padding: 0.6rem 0.3rem;
+      }
+
+      @media (max-width: 460px) {
+        font-weight: 800;
+        letter-spacing: 0.05rem;
+        padding: 0.6rem 0.2rem;
+      }
+
+      @media (max-width: 448px) {
+        padding: 0.6rem 0rem;
+      }
+
+      @media (max-width: 386px) {
+        font-size: 0.45rem;
+        padding: 0.5rem 0rem;
+      }
+      // padding: 1rem;
+      // text-transform: uppercase;
+      // letter-spacing: 0.1rem;
+      // font-size: 0.7rem;
+      // // font-weight: 900;
+      // @media (max-width: 859px) {
+      //   padding: 0.8rem;
+      // }
+      // @media (max-width: 815px) {
+      //   padding: 0.6rem;
+      // }
+      // @media (max-width: 737px) {
+      //   padding: 0.5rem;
+      //   font-size: 0.6rem;
+      // }
+      // @media (max-width: 704px) {
+      //   padding: 0.4rem;
+      // }
+      // @media (max-width: 675px) {
+      //   padding: 0.3rem;
+      //   text-align: center;
+      // }
+      // @media (max-width: 580px) {
+      //   padding: 0.1rem;
+      // }
+      // @media (max-width: 535px) {
+      //   font-size: 0.5rem;
+      // }
+      // @media (max-width: 472px) {
+      //   font-size: 0.4rem;
+      // }
+      // @media (max-width: 396px) {
+      //   font-size: 0.37rem;
+      // }
+    }
+
+    td {
+      padding: 1rem;
+      @media (max-width: 808px) {
+        font-size: 0.7rem;
+        padding: 1rem 0.5rem;
+      }
+
+      @media (max-width: 560px) {
+        font-size: 0.6rem;
+        padding: 0.6rem 0.4rem;
+      }
+
+      @media (max-width: 460px) {
+        font-weight: 800;
+        letter-spacing: 0.05rem;
+        padding: 0.6rem 0.2rem;
+      }
+
+      @media (max-width: 448px) {
+        font-size: 0.55rem;
+        padding: 0.6rem 0.1rem;
+      }
+
+      @media (max-width: 386px) {
+        font-size: 0.5rem;
+        padding: 0.5rem 0rem;
+      }
+      // padding: 1rem;
+      // @media (max-width: 859px) {
+      //   padding: 0.8rem;
+      // }
+      // @media (max-width: 815px) {
+      //   padding: 0.6rem;
+      // }
+      // @media (max-width: 737px) {
+      //   padding: 0.5rem;
+      // }
+
+      // @media (max-width: 704px) {
+      //   padding: 0.4rem;
+      // }
+
+      // @media (max-width: 675px) {
+      //   padding: 0.3rem;
+      //   text-align: center;
+      // }
+      // @media (max-width: 642px) {
+      //   font-size: 0.9rem;
+      // }
+      // @media (max-width: 615px) {
+      //   font-size: 0.8rem;
+      // }
+      // @media (max-width: 580px) {
+      //   padding: 0.1rem;
+      // }
+      // @media (max-width: 535px) {
+      //   font-size: 0.7rem;
+      // }
+      // @media (max-width: 472px) {
+      //   font-size: 0.6rem;
+      // }
+      // @media (max-width: 432px) {
+      //   font-size: 0.55rem;
+      // }
+      // @media (max-width: 380px) {
+      //   margin-left: 0.5rem;
+      // }
+    }
+
+    a {
+      text-decoration: none;
+      color: $clr-link;
+    }
+
+    .status {
+      border-radius: $radius;
+      background-color: red;
+      padding: 0.2rem 1rem;
+      text-align: center;
+      @media (max-width: 747px) {
+        padding: 0.2rem 0.5rem;
+        font-size: 0.5rem;
+      }
+
+      &-pending {
+        background-color: $clr-pending;
+        color: $clr-pending-font;
+      }
+
+      &-paid {
+        background-color: $clr-paid;
+        color: $clr-paid-font;
+      }
+
+      &-unpaid {
+        background-color: $clr-unpaid;
+        color: $clr-unpaid-font;
+      }
+    }
+
+    .amount {
+      text-align: center;
+    }
+
+    //Color alternating rows
+    tr:nth-child(even) {
+      background-color: $clr-gray150;
+    }
+  }
+}
+
+.price-to-pay {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+  float: right;
+  .amount-to-pay {
+    font-weight: 800;
+  }
+}
+
+.canceled {
+  background-color: $clr-unpaid;
+  color: $clr-unpaid-font;
+  border-radius: $radius;
+  padding: 0.2rem 1rem;
+  text-align: center;
+  @media (max-width: 376px) {
+    padding: 0.2rem 0.5rem;
+  }
+}
+
+.empty-gif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  margin: 30px auto;
+}

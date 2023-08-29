@@ -1,0 +1,50 @@
+.product {
+  width: 400px;
+  height: 350px;
+  @media (max-width: 493px) {
+    width: 350px;
+    height: 350px;
+  }
+
+  @media (max-width: 359px) {
+    width: 300px;
+    height: 300px;
+  }
+
+  @media (max-width: 311px) {
+    width: 280px;
+    height: 280px;
+  }
+
+  @media (max-width: 307px) {
+    width: 260px;
+    height: 260px;
+  }
+
+  img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  button {
+    margin-top: -5px;
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #fff;
+    color: #000;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      color: #fddd00;
+      background: #000;
+    }
+  }
+}

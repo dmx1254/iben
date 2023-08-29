@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+$base-spacing-unit: 24px;
+$half-spacing-unit: $base-spacing-unit / 2;
+
+$color-alpha: #1772ff;
+$color-form-highlight: #eeeeee;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.kamasprice {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f4f4f4;
+    color: #0b0809;
+    margin: 40px 0px;
+    font-family: "Roboto", sans-serif;
+    @media (max-width: 916px) {
+      margin: 40px 10px;
+    }
+
+    th,
+    td {
+      padding: 1rem;
+      text-align: left;
+      @media (max-width: 916px) {
+        padding: 1rem 0.5rem;
+        text-align: center;
+      }
+      @media (max-width: 660px) {
+        padding: 0.7rem 0.2rem;
+      }
+
+      @media (max-width: 494px) {
+        padding: 0.7rem 0rem;
+      }
+    }
+
+    td {
+      font-size: 15px;
+      @media (max-width: 916px) {
+        font-size: 13px;
+      }
+      @media (max-width: 660px) {
+        font-size: 11px;
+      }
+
+      @media (max-width: 494px) {
+        font-size: 10px;
+      }
+    }
+
+    th {
+      background: rgba(0, 0, 0, 1);
+      color: #f4f4f4;
+      font-weight: 400;
+      font-size: 15px;
+      text-transform: uppercase;
+      @media (max-width: 916px) {
+        font-size: 13px;
+      }
+
+      @media (max-width: 660px) {
+        font-size: 10px;
+      }
+
+      @media (max-width: 494px) {
+        font-size: 9px;
+      }
+    }
+
+    // tr{
+    //     &:nth-child(even) {
+    //         background-color: #a9c6c9;
+    //       }
+    // }
+
+    .table__column {
+      @media (max-width: 768px) {
+      }
+    }
+
+    .table__data {
+      @media (max-width: 768px) {
+      }
+    }
+  }
+}
+
+.dofus-empty {
+  width: 100%;
+  //   background: rgba(0, 0, 0, 0.4);
+  //   color: #f4f4f4;
+  background: #e8b129;
+  color: #f4f4f4;
+}
+
+.dofus-text-empty {
+  display: block;
+  text-transform: uppercase;
+  margin-left: -100px;
+}
+
+.currency-color {
+  color: #ffc300;
+}

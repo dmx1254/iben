@@ -1,0 +1,13 @@
+.buykamas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .buykamas-description{
+        color: #4f546c;
+        font-size: 19px;
+        margin: 20px auto;
+        max-width: 600px;
+        text-align: center;
+    }
+}

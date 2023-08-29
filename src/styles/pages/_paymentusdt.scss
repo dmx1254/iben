@@ -1,0 +1,218 @@
+.paymentusdt {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .paymentusdt-container {
+    margin-top: 20px;
+    background: #a9c6c9;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .usdt-qrcode {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      gap: 5px;
+      border-radius: 3px;
+      p {
+        margin-bottom: 5px;
+        color: #f4f4f4;
+      }
+    }
+    .paymentusdt-paytrc {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 20px 0px;
+      gap: 5px;
+      .paymentusdt-paytrc-send {
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      .paymentusdt-paytrc-cur {
+        background: #9ca3b9;
+        border-radius: 3px;
+        font-weight: 900;
+        font-size: 14px;
+        padding: 10px;
+      }
+
+      .paymentusdt-paytrc-val {
+        font-size: 16px;
+        font-weight: 900;
+      }
+    }
+
+    .paymentusdt-adjust {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+      .convert-rate {
+        font-size: 14px;
+        @media (max-width: 408px) {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .paymentusdt-valid {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 10px 0px;
+      font-size: 16px;
+    }
+
+    .cryptoapi-power {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin: 20px 0px;
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 4px;
+      border: none;
+      span {
+        font-style: italic;
+        font-size: 13px;
+        img {
+          width: 10px;
+          height: 10px;
+          background-size: cover;
+          background-position: center;
+        }
+      }
+    }
+
+    .waiting-network {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 20px 0px;
+      @media (max-width: 660px) {
+        flex-direction: column;
+      }
+      .waiting-for-pay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-top: 10px;
+        .logo1 {
+          font-size: 60px;
+          color: #1652f0;
+        }
+        .text-payment1 {
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+      .first-trait {
+        height: 1px;
+        width: 60px;
+        border: 2px solid #5d1594;
+        border-radius: 1px;
+        margin-left: 20px;
+        margin-top: -20px;
+        @media (max-width: 660px) {
+          display: none;
+        }
+      }
+      .waiting-for-network {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-top: 10px;
+        .logo2 {
+          font-size: 60px;
+          color: #0f4160;
+        }
+        .text-payment2 {
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+      .second-trait {
+        height: 1px;
+        width: 60px;
+        border: 2px solid #34aa40;
+        border-radius: 1px;
+        margin-right: 24px;
+        margin-top: -20px;
+        @media (max-width: 660px) {
+          display: none;
+        }
+      }
+      .waiting-for-valid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-top: 10px;
+        .logo3 {
+          font-size: 60px;
+          color: #34aa40;
+        }
+        .text-payment3 {
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .adress-to-copy {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 20px 0px;
+      .copyclip {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .btn-copyclip-contain {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          padding: 20px;
+          outline: none;
+          border: none;
+          border-radius: 5px;
+          font-size: 17px;
+          @media (max-width: 476px) {
+            font-size: 14px;
+            padding: 10px;
+          }
+          @media (max-width: 372px) {
+            font-size: 13px;
+            padding: 5px;
+          }
+          .copy-sap2 {
+            color: #2563eb;
+            font-size: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+.min-hou {
+  font-size: 15px;
+  font-weight: bold;
+  @media (max-width: 372px) {
+    font-size: 14px;
+  }
+}

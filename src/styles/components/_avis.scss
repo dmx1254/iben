@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&family=Roboto&display=swap");
+.avis {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  line-height: 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+  background: rgba(244, 244, 244, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  max-height: 400px;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  h1 {
+    color: #75758b;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+
+  .loader-giphy {
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .reviewmap-container {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 10px;
+    .avis-userContainer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .avis-img {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        img {
+          width: 50px;
+          height: 50px;
+          background-size: cover;
+          background-position: center;
+          border-radius: 50%;
+        }
+        avis-userinfo {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .avis-userinfo-last {
+            //   font-weight: 600;
+            //   font-size: 10px;
+          }
+          .avis-userinfo-email {
+            //   color: #ccc;
+            //   font-size: 10px;
+            //   font-weight: 400;
+          }
+        }
+      }
+      .avis-rank {
+        display: flex;
+        align-items: center;
+        span {
+          color: #fcfc28;
+        }
+      }
+    }
+
+    .avis-comment {
+      .avis-comment-container {
+        font-size: 12px;
+        line-height: 22px;
+        margin-top: 10px;
+        margin-left: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+.subheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  height: 80px;
+  margin: 0px 10px;
+  display: none;
+  @media (max-width: 620px) {
+    display: flex;
+  }
+  .subheader-icon {
+    color: white;
+    font-size: 34px;
+    cursor: pointer;
+    margin-top: 10px;
+    // @media (max-width: 377px) {
+    //   margin-right: 7px;
+    //   font-size: 30px;
+    // }
+  }
+
+  .usertruth {
+    .user-contaner {
+      position: relative;
+      margin-right: 5px;
+      .img-user-person {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .logo-subheader {
+        font-size: 1.5rem;
+        color: white;
+        cursor: pointer;
+      }
+
+      .account-reveal {
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background: #fff;
+        color: #000;
+        left: -190%;
+        top: 50%;
+        width: 180px;
+        border-radius: 5px;
+        user-select: none;
+        span {
+          font-family: "Roboto", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          cursor: pointer;
+          transition: 0.5s ease-in-out;
+          color: #000;
+          &:hover {
+            color: #ad0000;
+          }
+        }
+        .link-profil {
+          font-family: "Roboto", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          color: #000;
+          cursor: pointer;
+          transition: 0.5s ease-in-out;
+          &:hover {
+            color: #333333;
+          }
+        }
+        .sepa {
+          border-bottom: 1px solid #000;
+          width: 100%;
+          margin: 5px 0px;
+        }
+      }
+    }
+  }
+
+  .subheader-acountUser {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 5px;
+
+    // @media (max-width: 514px) {
+    //   flex-direction: column;
+    //   margin-top: 5px;
+    //   margin-bottom: 5px;
+    // }
+
+    .btnToLog {
+      font-size: 16px;
+      padding: 10px;
+      border: none;
+      background: #e7c80b;
+      color: #000;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: "Roboto", sans-serif;
+      transition: 0.5s ease-in-out;
+      box-shadow: rgba(255, 240, 0, 0.3) 0px 1px 2px 0px,
+        rgba(255, 240, 0, 0.15) 0px 2px 6px 2px;
+
+      //   @media (max-width: 514px) {
+      //     font-size: 15px;
+      //     padding: 5px;
+      //   }
+
+      //   @media (max-width: 388px) {
+      //     font-size: 13px;
+      //     padding: 3px;
+      //   }
+
+      &:hover {
+        background: rgb(255, 240, 0);
+      }
+    }
+  }
+}

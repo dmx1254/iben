@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&family=Roboto&display=swap");
+.navbar-bottom {
+  background: rgb(0, 0, 0);
+  height: 50px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  @media (max-width: 434px) {
+    gap: 15px;
+  }
+  @media (max-width: 412px) {
+    gap: 10px;
+  }
+  .singleLink-bottom {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.5s ease-in-out;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-in-out;
+    &:hover{
+        color: #e3e3e3;
+    }
+    @media (max-width: 491px) {
+      font-size: 14px;
+    }
+    @media (max-width: 434px) {
+      gap: 12px;
+    }
+    @media (max-width: 412px) {
+      font-size: 10px;
+    }
+  }
+}

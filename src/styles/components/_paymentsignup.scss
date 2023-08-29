@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&family=Roboto&display=swap");
+
+.paymentsignup {
+  display: flex;
+  gap: 20px;
+  margin: 10px auto;
+  position: relative;
+  padding-bottom: 40px;
+  @media (max-width: 1161px) {
+    flex-direction: column;
+  }
+
+  .paymentsignup-first {
+    display: flex;
+    flex-direction: column;
+    background: rgba(238, 238, 238, 1);
+    padding: 15px;
+    border-radius: 3px;
+
+    .title {
+      color: rgba(44, 54, 64, 1);
+      font-weight: 600;
+      font-size: 15px;
+      font-family: "Roboto", sans-serif;
+      padding: 10px 0px;
+    }
+
+    .personal {
+      display: flex;
+      align-items: center;
+      .personal-lab {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 39px;
+        // justify-content: space-between;
+        // gap: 40px;
+
+        label {
+          font-size: 15px;
+          font-family: "Roboto", sans-serif;
+        }
+      }
+      .personal-inp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input {
+          font-size: 15px;
+          outline: none;
+          padding: 10px;
+          border: 1px solid #ccc;
+          max-width: 200px;
+          font-family: "Roboto", sans-serif;
+          @media (max-width: 401px) {
+            max-width: 150px;
+          }
+          &:focus {
+            border: 1px solid #75758b;
+          }
+        }
+      }
+
+      //   div {
+      //     display: flex;
+      //     flex-direction: column;
+      //     align-items: center;
+      //     // justify-content: space-between;
+      //     // gap: 40px;
+
+      //     label {
+      //       font-size: 15px;
+      //       font-family: "Roboto", sans-serif;
+      //       margin-left: 5px;
+      //     }
+
+      //     input {
+      //       font-size: 15px;
+      //       outline: none;
+      //       padding: 10px;
+      //       border: 1px solid #ccc;
+      //       max-width: 200px;
+      //       font-family: "Roboto", sans-serif;
+      //     }
+      //   }
+    }
+  }
+  .paymentsignup-second {
+    display: flex;
+    flex-direction: column;
+    background: rgba(238, 238, 238, 1);
+    padding: 15px;
+
+    .title {
+      color: rgba(44, 54, 64, 1);
+      font-weight: 600;
+      font-size: 15px;
+      font-family: "Roboto", sans-serif;
+      padding: 10px 0px;
+    }
+    .billing {
+      display: flex;
+      height: 260px;
+      border-radius: 3px;
+      .billing-lab {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 40px;
+        // justify-content: space-between;
+        // gap: 40px;
+        label {
+          font-size: 15px;
+          font-family: "Roboto", sans-serif;
+        }
+      }
+      .billing-inp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: space-between;
+        // gap: 40px;
+        input {
+          font-size: 15px;
+          outline: none;
+          padding: 10px;
+          border: 1px solid #ccc;
+          max-width: 200px;
+          font-family: "Roboto", sans-serif;
+          &:focus {
+            border: 1px solid #75758b;
+          }
+          @media (max-width: 401px) {
+            max-width: 150px;
+          }
+        }
+        // select {
+        //   font-size: 15px;
+        //   outline: none;
+        //   padding: 10px;
+        //   border: 1px solid #ccc;
+        //   max-width: 200px;
+        //   font-family: "Roboto", sans-serif;
+        //   &:focus {
+        //     border: 1px solid #75758b;
+        //   }
+        // }
+      }
+
+      //   div {
+      //     display: flex;
+      //     align-items: center;
+      //     // justify-content: space-between;
+      //     // gap: 40px;
+      //     label {
+      //       font-size: 15px;
+      //       font-family: "Roboto", sans-serif;
+      //     }
+      //     input {
+      //       font-size: 15px;
+      //       outline: none;
+      //       padding: 10px;
+      //       border: 1px solid #ccc;
+      //       max-width: 200px;
+      //       font-family: "Roboto", sans-serif;
+      //     }
+
+      //     select {
+      //       font-size: 15px;
+      //       outline: none;
+      //       padding: 10px;
+      //       border: 1px solid #ccc;
+      //       max-width: 200px;
+      //       font-family: "Roboto", sans-serif;
+      //     }
+      //   }
+    }
+  }
+
+  .btn-paysign {
+    position: absolute;
+    top: 91%;
+    left: 80%;
+    background: rgba(0, 0, 0, 1);
+    color: #f4f4f4;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      background: rgba(0, 0, 0, 0.9);
+    }
+
+    @media (max-width: 1161px) {
+      top: 94%;
+      left: 60%;
+    }
+
+    @media (max-width: 401px) {
+      top: 94%;
+      left: 54%;
+    }
+    @media (max-width: 380px) {
+      top: 94%;
+      left: 62%;
+      padding: 10px;
+    }
+
+    @media (max-width: 341px) {
+      top: 94%;
+      left: 58%;
+      padding: 10px;
+    }
+  }
+}
+
+.select-country {
+  font-size: 15px;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+  font-family: "Roboto", sans-serif;
+  &:focus {
+    border: 1px solid #75758b;
+  }
+  @media (max-width: 401px) {
+    max-width: 150px;
+  }
+}
+
+.select-city {
+  font-size: 15px;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+  font-family: "Roboto", sans-serif;
+  &:focus {
+    border: 1px solid #75758b;
+  }
+  @media (max-width: 401px) {
+    max-width: 150px;
+  }
+}
+
+.signup-errors {
+    color: #ff0000;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 5px auto;
+  }

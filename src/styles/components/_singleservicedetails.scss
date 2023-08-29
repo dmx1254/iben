@@ -1,0 +1,47 @@
+.singleservicedetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 20px;
+  gap: 10px;
+  box-shadow: 0 4px 16px rgba(43, 52, 69, 0.1);
+  border-radius: 5px;
+  @media (max-width: 1283px) {
+    padding: 10px;
+  }
+
+  @media (max-width: 1141px) {
+    max-width: 300px;
+  }
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #a7bbe4;
+    // margin-left: 20px;
+    text-align: center;
+    border-radius: 50%;
+    i {
+      font-size: 25px;
+      @media (max-width: 1216px) {
+        font-size: 23px;
+      }
+    }
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 17px;
+    @media (max-width: 1216px) {
+      font-size: 16px;
+    }
+  }
+  p {
+    font-size: 15px;
+    margin-top: 10px;
+    color: grey;
+    @media (max-width: 1216px) {
+      font-size: 14px;
+    }
+  }
+}

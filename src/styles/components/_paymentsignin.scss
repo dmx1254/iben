@@ -1,0 +1,116 @@
+.paymentsignin {
+  .paymentsignin-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .paymentsignin-not-account {
+      display: flex;
+      align-items: center;
+      .paymentsignin-not-account1 {
+        font-size: 14px;
+      }
+
+      .paymentsignin-not-account2 {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 1);
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+        &:hover {
+          color: rgba(0, 0, 0, 0.8);
+        }
+      }
+    }
+
+    .paymentsignin-first {
+      width: 500px;
+      @media (max-width: 1195px) {
+        width: 450px;
+      }
+
+      @media (max-width: 1143px) {
+        width: 400px;
+      }
+
+      @media (max-width: 1086px) {
+        width: 350px;
+      }
+
+      @media (max-width: 1032px) {
+        width: 300px;
+      }
+
+      @media (max-width: 1008px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      input {
+        font-size: 16px;
+        padding: 12px 15px;
+        outline: none;
+        border: 1px solid #757575;
+        width: 100%;
+        border-radius: 3px;
+      }
+    }
+    .paymentsignin-second {
+      position: relative;
+      width: 500px;
+      @media (max-width: 1195px) {
+        width: 450px;
+      }
+
+      @media (max-width: 1143px) {
+        width: 400px;
+      }
+
+      @media (max-width: 1086px) {
+        width: 350px;
+      }
+
+      @media (max-width: 1032px) {
+        width: 300px;
+      }
+
+      @media (max-width: 1008px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      input {
+        font-size: 16px;
+        padding: 12px 15px;
+        outline: none;
+        border: 1px solid #757575;
+        width: 100%;
+        border-radius: 3px;
+      }
+      button {
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        background: rgba(0, 0, 0, 1);
+        color: #f4f4f4;
+        transition: 0.3s ease-in-out;
+        position: absolute;
+        left: 104%;
+        font-size: 16px;
+        padding: 10px 15px;
+        @media (max-width: 1086px) {
+          left: 102%;
+        }
+        @media (max-width: 1008px) {
+          position: static;
+          width: 100%;
+        }
+        &:hover {
+          background: rgba(0, 0, 0, 0.9);
+        }
+      }
+    }
+  }
+}

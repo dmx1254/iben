@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&family=Roboto&display=swap");
+.headerpaymentpage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.9);
+  color: #f4f4f4;
+  @media(max-width: 545px){
+    flex-direction: column;
+  }
+
+  .textandlogotopay {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    @media (max-width: 603px) {
+      gap: 7px;
+    }
+    @media(max-width: 391px){
+        gap: 5px;
+      }
+      @media(max-width: 369px){
+        gap: 3px;
+      }
+
+    .logotopay {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-left: 10px;
+      @media(max-width: 391px){
+        gap: 5px;
+        margin-left: 7px;
+      }
+      @media(max-width: 369px){
+        gap: 3px;
+        margin-left: 5px;
+      }
+      img {
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        @media (max-width: 603px) {
+          width: 60px;
+          height: 60px;
+        }
+        @media(max-width: 391px){
+            width: 55px;
+            height: 55px;
+          }
+          @media(max-width: 369px){
+            width: 50px;
+            height: 50px;
+          }
+      }
+      .iben {
+        font-size: 22px;
+        font-family: "Roboto", sans-serif;
+        @media (max-width: 603px) {
+          font-size: 18px;
+        }
+        @media(max-width: 391px){
+            font-size: 16px;
+          }
+          @media(max-width: 369px){
+            font-size: 14px;
+          }
+      }
+    }
+
+    .separator {
+      border: 1px solid #333333;
+      height: 50px;
+    }
+    .texttopay {
+      font-size: 22px;
+      font-family: "Roboto", sans-serif;
+      @media (max-width: 603px) {
+        font-size: 18px;
+      }
+
+      @media (max-width: 391px) {
+        font-size: 16px;
+      }
+      @media(max-width: 369px){
+        font-size: 14px;
+      }
+      
+    }
+  }
+  .stepper-container {
+    width: 600px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    @media (max-width: 1017px) {
+      width: 500px;
+      margin-right: 10px;
+    }
+
+    @media (max-width: 960px) {
+      width: 400px;
+    }
+    @media (max-width: 603px) {
+      font-size: 18px;
+    }
+    @media(max-width: 545px){
+        width: 500px;
+      }
+      @media(max-width: 493px){
+        max-width: 400px;
+      }
+      @media(max-width: 391px){
+        max-width: 350px;
+      }
+      @media(max-width: 371px){
+        font-size: 16px;
+      }
+      @media(max-width: 369px){
+        max-width: 300px;
+      }
+  }
+}

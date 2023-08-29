@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&family=Roboto&display=swap");
+
+.productdetail {
+  display: flex;
+  flex-direction: column;
+
+  .alert {
+    display: flex;
+    margin: 20px 0px;
+    line-height: 25px;
+    text-align: justify;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    background: rgba(244, 244, 244, 0.8);
+    border-radius: 5px;
+    color: #ff0000;
+  }
+
+  .separator {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(45deg, yellow, black);
+    opacity: 0.5;
+  }
+
+  img {
+    width: 500px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    @media (max-width: 801px) {
+      width: 450px;
+      height: 300px;
+    }
+    @media (max-width: 755px) {
+      width: 400px;
+      height: 300px;
+    }
+    @media (max-width: 707px) {
+      width: 350px;
+      height: 300px;
+    }
+    @media (max-width: 653px) {
+      width: 300px;
+      height: 250px;
+    }
+    @media (max-width: 607px) {
+      width: 300px;
+      height: 250px;
+    }
+  }
+
+  .dofus-productdetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    margin-left: 0px;
+    background: rgba(244, 244, 244, 0.8);
+    border-radius: 5px;
+
+    @media (max-width: 654px) {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .productdetails-choose {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      .price {
+        display: flex;
+        font-family: "Roboto", sans-serif;
+        gap: 10px;
+        @media (max-width: 654px) {
+          margin: 10px 0px;
+        }
+      }
+      .price-text {
+      }
+
+      .price-price {
+        font-weight: bold;
+        font-size: 17px;
+        color: #ff0000;
+      }
+      @media (max-width: 798px) {
+        gap: 5px;
+      }
+
+      @media (max-width: 707px) {
+        gap: 5px;
+      }
+
+      h3 {
+        font-weight: 500;
+      }
+
+      .productdetails-choose-serverselect {
+        display: flex;
+        flex-direction: column;
+        label {
+          font-family: "Roboto", sans-serif;
+          margin: 10px 0px;
+        }
+        .select {
+          border: 1px solid #ccc;
+          outline: none;
+          font-size: 15px;
+          padding: 10px 20px;
+          cursor: pointer;
+          font-family: "Roboto", sans-serif;
+
+          option {
+            font-family: "Roboto", sans-serif;
+          }
+        }
+      }
+      .productdetails-choose-qtyselect {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        label {
+          font-family: "Roboto", sans-serif;
+          margin: 10px 0px;
+        }
+
+        input {
+          border: 1px solid #ccc;
+          outline: none;
+          font-size: 15px;
+          padding: 10px 20px;
+          cursor: pointer;
+
+          &::placeholder {
+            font-family: "Roboto", sans-serif;
+          }
+        }
+
+        .productdetails-choose-qtyselect-absolute {
+          color: #34aa40;
+          position: absolute;
+          font-weight: bold;
+          top: 65%;
+          left: 76%;
+          font-size: 14px;
+        }
+
+        .kicon {
+          position: absolute;
+          top: 65%;
+          left: 92%;
+          cursor: pointer;
+        }
+      }
+
+      .btn-productdetail {
+        text-align: center;
+        margin-top: 5px;
+        .btn-detail {
+          font-size: 15px;
+          display: block;
+          color: white;
+          background: rgba(0, 0, 0, 0.9);
+          font-family: "Roboto", sans-serif;
+          padding: 12px 20px;
+          text-align: center;
+          border-radius: 5px;
+          width: 100%;
+          cursor: pointer;
+          transition: 0.3s ease;
+          text-transform: uppercase;
+          border: none;
+          outline: none;
+          margin-top: 10px;
+          @media (max-width: 654px) {
+            width: 300px;
+            margin-top: 15px;
+          }
+          &:hover {
+            background: #333333;
+          }
+        }
+      }
+    }
+  }
+
+  .button-controller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0px;
+    button {
+      font-size: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      cursor: pointer;
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+    }
+
+    .chooseDescReview {
+      background: rgba(0, 0, 0, 0.9);
+      color: white;
+    }
+  }
+}
+
+.carousel-text-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 10px;
+  @media (max-width: 640px) {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: #0d2753;
+    color: #f4f4f4;
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+
+    .carousel-icon {
+      font-size: 70px;
+      font-family: "Roboto", sans-serif;
+      z-index: 10;
+      position: absolute;
+      top: -25%;
+      @media (max-width: 640px) {
+        top: -30%;
+      }
+    }
+    .carousel-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: 600;
+      font-size: 17px;
+      margin-bottom: 10px;
+      margin-top: 25px;
+      letter-spacing: 1.5px;
+    }
+    .carousel-desc {
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+}
